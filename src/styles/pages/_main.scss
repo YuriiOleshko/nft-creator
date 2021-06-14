@@ -1,0 +1,111 @@
+.main{
+  max-width: 1440px;
+  width: 100%;
+  padding:  0 40px;
+
+  &__wrapper{
+    margin-top: 30px;
+  }
+    &__title{
+      text-align: center;
+    }
+
+  &__search{
+    max-width: 800px;
+    margin: 40px auto auto;
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  &__input{
+   flex-basis: 70%;
+    max-width: 600px;
+  }
+
+  &__btn{
+    flex-basis: 20%;
+    max-width: 200px;
+
+  }
+
+  &__tabs{
+    justify-content: center;
+    display:flex;
+    position: relative;
+  }
+
+  &__row-tabs{
+    margin-top:50px!important;
+    position: relative;
+  }
+
+  &__tab{
+    width: 200px;
+    text-align: center;
+  }
+  &__no-load{
+    position: absolute;
+    width: 100%;
+    background: white;
+    z-index: 2;
+    top: 50px;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    span{
+      font-size: 36px;
+    }
+  }
+
+  &__group{
+    width: 100%;
+  }
+
+  &__error{
+    color: red!important;
+    position: absolute;
+    bottom: -25px;
+  }
+
+  &__body-element{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    &::-webkit-scrollbar{
+      display: none;
+    }
+    & .table-responsive{
+      width: 100%;
+    }
+  }
+  &__write-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    margin: auto;
+    &>div{
+      margin-bottom: 10px;
+    }
+  }
+  &__mint{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    & input{
+      min-width: 300px;
+    }
+
+    .main__group{
+      margin-bottom:10px ;
+    }
+  }
+
+}

@@ -1,0 +1,173 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../../assets/fonts/Roboto-Thin.eot');
+  src: url('../../assets/fonts/Roboto-Thin.eot?#iefix') format('embedded-opentype'),
+  url('../../assets/fonts/Roboto-Thin.woff2') format('woff2'),
+  url('../../assets/fonts/Roboto-Thin.woff') format('woff'),
+  url('../../assets/fonts/Roboto-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../../assets/fonts/Roboto-Bold.eot');
+  src: url('../../assets/fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../../assets/fonts/Roboto-Bold.woff2') format('woff2'),
+  url('../../assets/fonts/Roboto-Bold.woff') format('woff'),
+  url('../../assets/fonts/Roboto-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../../assets/fonts/Roboto-Regular.eot');
+  src: url('../../assets/fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../../assets/fonts/Roboto-Regular.woff2') format('woff2'),
+  url('../../assets/fonts/Roboto-Regular.woff') format('woff'),
+  url('../../assets/fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../../assets/fonts/Roboto-Black.eot');
+  src: url('../../assets/fonts/Roboto-Black.eot?#iefix') format('embedded-opentype'),
+  url('../../assets/fonts/Roboto-Black.woff2') format('woff2'),
+  url('../../assets/fonts/Roboto-Black.woff') format('woff'),
+  url('../../assets/fonts/Roboto-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../../assets/fonts/Lato-Semibold.eot');
+  src: url('../../assets/fonts/Lato-Semibold.eot?#iefix') format('embedded-opentype'),
+  url('../../assets/fonts/Lato-Semibold.woff2') format('woff2'),
+  url('../../assets/fonts/Lato-Semibold.woff') format('woff'),
+  url('../../assets/fonts/Lato-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../../assets/fonts/Lato-Light.eot');
+  src: url('../../assets/fonts/Lato-Light.eot?#iefix') format('embedded-opentype'),
+  url('../../assets/fonts/Lato-Light.woff2') format('woff2'),
+  url('../../assets/fonts/Lato-Light.woff') format('woff'),
+  url('../../assets/fonts/Lato-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../../assets/fonts/Lato-Heavy.eot');
+  src: url('../../assets/fonts/Lato-Heavy.eot?#iefix') format('embedded-opentype'),
+  url('../../assets/fonts/Lato-Heavy.woff2') format('woff2'),
+  url('../../assets/fonts/Lato-Heavy.woff') format('woff'),
+  url('../../assets/fonts/Lato-Heavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../../assets/fonts/Lato-Black.eot');
+  src: url('../../assets/fonts/Lato-Black.eot?#iefix') format('embedded-opentype'),
+  url('../../assets/fonts/Lato-Black.woff2') format('woff2'),
+  url('../../assets/fonts/Lato-Black.woff') format('woff'),
+  url('../../assets/fonts/Lato-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../../assets/fonts/Lato-Regular.eot');
+  src: url('../../assets/fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../../assets/fonts/Lato-Regular.woff2') format('woff2'),
+  url('../../assets/fonts/Lato-Regular.woff') format('woff'),
+  url('../../assets/fonts/Lato-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../../assets/fonts/Lato-Bold.eot');
+  src: url('../../assets/fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../../assets/fonts/Lato-Bold.woff2') format('woff2'),
+  url('../../assets/fonts/Lato-Bold.woff') format('woff'),
+  url('../../assets/fonts/Lato-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../../assets/fonts/Lato-Medium.eot');
+  src: url('../../assets/fonts/Lato-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../../assets/fonts/Lato-Medium.woff2') format('woff2'),
+  url('../../assets/fonts/Lato-Medium.woff') format('woff'),
+  url('../../assets/fonts/Lato-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../../assets/fonts/Lato-Thin.eot');
+  src: url('../../assets/fonts/Lato-Thin.eot?#iefix') format('embedded-opentype'),
+  url('../../assets/fonts/Lato-Thin.woff2') format('woff2'),
+  url('../../assets/fonts/Lato-Thin.woff') format('woff'),
+  url('../../assets/fonts/Lato-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../../assets/fonts/icomoon.eot?7vfwjk');
+  src:  url('../../assets/fonts/icomoon.eot?7vfwjk#iefix') format('embedded-opentype'),
+  url('../../assets/fonts/icomoon.ttf?7vfwjk') format('truetype'),
+  url('../../assets/fonts/icomoon.woff?7vfwjk') format('woff'),
+  url('../../assets/fonts/icomoon.svg?7vfwjk#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
