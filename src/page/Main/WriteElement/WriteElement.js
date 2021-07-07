@@ -1,21 +1,22 @@
-import React, {useState} from 'react';
-import SearchLine from "../../../components/SearchLine/SearchLine";
-import {Button, Form} from "react-bootstrap";
+import React from 'react';
 import MintNft from "./MintNft";
-import CreateNftByAddress from "./CreateNftByAddress/CreateNftByAddress";
+import SendById from "./SendById/SendById";
+import SetRole from "./SetRole";
+import DeleteRole from "./DeleteRole";
+import ApproveToken from "./ApproveToken";
+import BurnToken from "./BurnToken";
 
 const WriteElement = () => {
-    const [value,setValue]= useState('')
-
-    console.log('write');
     return (
         <div className='main__element'>
-            <div className="main__element-panel">
 
-            </div>
             <div className="main__write-body">
                 <MintNft/>
-                <CreateNftByAddress/>
+                <SendById/>
+                <ApproveToken/>
+                <BurnToken/>
+                <SetRole/>
+                <DeleteRole/>
             </div>
 
         </div>

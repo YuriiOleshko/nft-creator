@@ -1,1 +1,1 @@
-export { default } from './SearchByTokenId'
+export { default } from './SearchByTokenId';

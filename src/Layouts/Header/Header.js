@@ -9,13 +9,14 @@ const Header = () => {
         localStorage.clear()
         update('publicKey', '');
         update('privateKey', '');
+        update('net', '');
         history.push('/login')
     }
     return (
         <div className="header ">
             <div className="header__nav container">
             <div className="header__logo">
-                <span>NS</span>
+                <span>ZIMT NM</span>
             </div>
             <div className="header__log-out" onClick={clearKey}>
                 Clear Key

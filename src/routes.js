@@ -11,7 +11,7 @@ const routes = [
     path: '/',
     key: 'HOME',
     component: (props) => {
-      if (!localStorage.getItem('privatAddress') ) {
+      if (!localStorage.getItem('privateKey') ) {
         return <Redirect to="/login" />;
       }
       return <RenderRoutes {...props} />;
@@ -26,14 +26,6 @@ const routes = [
         ),
       },
 
-  //     // {
-  //     //   path: '/edit/:nameId',
-  //     //   key: 'PROJECT',
-  //     //   exact: true,
-  //     //   component: () => (
-  //     //     <Login />
-  //     //   ),
-  //     // },
     ],
   },
 ];

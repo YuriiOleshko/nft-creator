@@ -1,16 +1,23 @@
-.main{
+.main {
   max-width: 1440px;
   width: 100%;
-  padding:  0 40px;
+  padding: 0 40px;
 
-  &__wrapper{
+
+  &__table{
+    td{
+      word-break: break-all;
+    }
+  }
+  &__wrapper {
     margin-top: 30px;
   }
-    &__title{
-      text-align: center;
-    }
 
-  &__search{
+  &__title {
+    text-align: center;
+  }
+
+  &__search {
     max-width: 800px;
     margin: 40px auto auto;
     display: flex;
@@ -18,33 +25,36 @@
     align-items: flex-end;
     justify-content: space-between;
   }
-  &__input{
-   flex-basis: 70%;
+
+  &__input {
+    flex-basis: 70%;
     max-width: 600px;
   }
 
-  &__btn{
+  &__btn {
     flex-basis: 20%;
     max-width: 200px;
+    margin-left: 10px;
 
   }
 
-  &__tabs{
+  &__tabs {
     justify-content: center;
-    display:flex;
+    display: flex;
     position: relative;
   }
 
-  &__row-tabs{
-    margin-top:50px!important;
+  &__row-tabs {
+    margin-top: 50px !important;
     position: relative;
   }
 
-  &__tab{
+  &__tab {
     width: 200px;
     text-align: center;
   }
-  &__no-load{
+
+  &__no-load {
     position: absolute;
     width: 100%;
     background: white;
@@ -55,56 +65,149 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    span{
+
+    span {
       font-size: 36px;
     }
   }
 
-  &__group{
+  &__group {
     width: 100%;
   }
 
-  &__error{
-    color: red!important;
+  &__error {
+    color: red !important;
     position: absolute;
     bottom: -25px;
   }
 
-  &__body-element{
+  &__body-element {
     display: flex;
     margin-top: 20px;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     height: 200px;
-    &::-webkit-scrollbar{
+
+    &::-webkit-scrollbar {
       display: none;
     }
-    & .table-responsive{
+
+    & .table-responsive {
       width: 100%;
     }
   }
-  &__write-body{
+
+  &__write-body {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 800px;
     margin: auto;
-    &>div{
+
+    & > div {
       margin-bottom: 10px;
     }
   }
-  &__mint{
+
+  &__mint {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    & input{
+    position: relative;
+    padding-bottom: 30px;
+
+    & input {
       min-width: 300px;
     }
 
-    .main__group{
-      margin-bottom:10px ;
+    & form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .main__group {
+      margin-bottom: 10px;
+    }
+  }
+
+  &__group {
+    &.select {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  &__element-error {
+    margin-top: 10px;
+    color: #0d6efd;
+    font-style: italic;
+    position: absolute;
+    line-height: 16px;
+    font-size: 16px;
+    width: 100%;
+    left: 0;
+    bottom:0;
+    padding-bottom: 5px;
+    text-align: center;
+    overflow: scroll;
+    &::-webkit-scrollbar{
+      display: none;
+    }
+    &.read-type{
+      font-size: 24px;
+      position: relative;
+      overflow: inherit;
+    }
+  }
+  &__wrap-spinner{
+    position: absolute;
+    width: 110%;
+    height: 100%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: -5%;
+    background: white;
+  }
+
+  &__select {
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 6px;
+  }
+
+  &__element-panel {
+    position: relative;
+    margin-bottom: 80px!important;
+    &.read{
+      .main__error{
+        bottom: auto;
+      }
+    }
+
+    &.set-role {
+      & .main__element-error{
+        bottom: inherit!important;
+      }
+      .main__search {
+        display: flex;
+        flex-direction: column;
+        .main__btn {
+          margin-top: 10px;
+          max-width: 100%;
+          width: 100%;
+          order: 2;
+        }
+
+        .main__select{
+          order: 1;
+        }
+      }
     }
   }
 

@@ -1,1 +1,1 @@
-export { default } from './SearchByAddress'
+export { default } from './SearchByAddress';
